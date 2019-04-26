@@ -1,6 +1,8 @@
 .card {
     width: 200px;
     height: 150px;
-    border-radius:  solid white 25px;
+    border:  solid white 25px;
+    //border-radius: 25px;
+    margin: 15px 45px;
 
 }

@@ -8,8 +8,8 @@ class Navbar extends Component {
 
 
                 <ul>
-                    <li className="itemLeft">Can you remember the Houses?</li>
-                    <li className="itemCenter"></li>
+                    <li className="itemLeft"></li>
+                    <li className="itemCenter">Can you remember the Houses?</li>
                     <li className="itemRight">Score: {this.props.score}</li>
                 </ul>
             </nav>
