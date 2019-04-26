@@ -1,10 +1,9 @@
 //imports
 import React, { Component } from 'react';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
 import CharCard from './components/CharCard';
 import Jumbotron from './components/Jumbotron';
-import Characters from './characters.json';
+import characters from './characters.json';
 import './App.css';
 
 
@@ -82,7 +81,6 @@ render() {
                     />
                 ))}
             </div>
-            <Footer />
         </div>
     );
 }
