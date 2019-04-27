@@ -1,18 +1,25 @@
 import React,{Component}from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import { MDBNav, MDBNavItem, MDBNavLink } from "mdbreact";
 import "./Navbar.css";
 
 class Navbar extends Component {
     render (){
         return (
-            <nav className="navbar navbar-defualt navbar-fixed-top">
+            <BrowserRouter>
 
+    <MDBNav className="justify-content-center">
+      <MDBNavItem>
+        <MDBNavLink active to="#!">Can you win the 7 Kingdoms?</MDBNavLink>
+      </MDBNavItem>
+      <MDBNavItem>
+        <MDBNavLink to="#!">Score: {this.props.score}</MDBNavLink>
+      </MDBNavItem>
+  
+    </MDBNav>
 
-                <ul>
-                    <li className="itemLeft"></li>
-                    <li className="itemCenter">Can you remember the Houses?</li>
-                    <li className="itemRight">Score: {this.props.score}</li>
-                </ul>
-            </nav>
+  </BrowserRouter>
+          
         );
     }
 }
@@ -42,3 +49,7 @@ export default Navbar;
 
 //   </BrowserRouter>
 // );
+
+
+
+
