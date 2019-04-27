@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import CharCard from './components/CharCard';
 import Jumbotron from './components/Jumbotron';
 import characters from './characters.json';
+//import Image from 'react-bootstrap/Image';
 import './App.css';
 
 

@@ -18,3 +18,27 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
+
+
+
+// export default () => (
+//   <BrowserRouter>
+
+//     <MDBNav className="justify-content-center">
+//       <MDBNavItem>
+//         <MDBNavLink active to="#!">Active</MDBNavLink>
+//       </MDBNavItem>
+//       <MDBNavItem>
+//         <MDBNavLink to="#!">Link</MDBNavLink>
+//       </MDBNavItem>
+//       <MDBNavItem>
+//         <MDBNavLink to="#!">Link</MDBNavLink>
+//       </MDBNavItem>
+//       <MDBNavItem>
+//         <MDBNavLink disabled to="#!">Disabled</MDBNavLink>
+//       </MDBNavItem>
+//     </MDBNav>
+
+//   </BrowserRouter>
+// );
